@@ -41,7 +41,7 @@ Contributions are highly encouraged! Follow these steps to contribute:
 📧 Contact
 Have suggestions, queries, or feedback? Feel free to reach out:
 
-Email: [nidalhelahessane@gmail.com]
+Email: nidalhelahessane@gmail.com
 Empower your knowledge and secure the future!
 
 
