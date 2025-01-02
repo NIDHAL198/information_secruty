@@ -25,7 +25,7 @@ This repository offers curated resources, guides, and insights, making it a valu
 To get started with the repository:  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-username/information-security-hub.git  
+   git clone https://github.com/your-username/information-security-hub.git 
 2. Navigate through the well-organized directories to find the topics you're interested in.
 3. Explore the resources, apply them, and contribute to expand the knowledge base.
 
