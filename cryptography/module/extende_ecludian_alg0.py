@@ -21,7 +21,7 @@ def extende_ecludain (a,b) :
    return pgcd , t2 , t1
 
 
-pgcd  , x1 , x2 = extende_ecludain(3120,17)
+pgcd  , x1 , x2 = extende_ecludain(19,31)
 print(pgcd)
 print(x1)
 print(x2)

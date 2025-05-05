@@ -1,4 +1,4 @@
-# the author -------> boulgamh lahcen nidhal (no chatgpt no deeepseek ^_*)
+# the author -------> boulgamh lahcen nidhal (neither chatgpt nor deeepseek ^_*)
 
 import random
 
@@ -199,7 +199,7 @@ print("-"*100)
 print(f"the decrepted message ------> {decrepted_mesage}")
 message = "".join(chr (c) for c in decrepted_mesage)
 print("-"*100)
-print(f"the orignal message -----> {message}")
+print(f"the decoded message -----> {message}")
 print("-"*100)
 
 # i was think that the Liner feadback shift register (LFSR) until i understand the elGamel and DLP problem 

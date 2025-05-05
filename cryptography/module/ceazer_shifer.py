@@ -2,15 +2,13 @@ def ceazer_shifer(text,key) :
    resualt = ""
    for char in text : 
       if char.isupper():
-         resualt +=  chr((ord (char)+key + 61 )% 26 )
+         resualt +=  chr((ord (char)+key + 61 )% 26 +  65 )
       elif char.islower():
          resualt += chr((ord(char) + key -97)%26  + 97)
       else : 
          resualt +=char
    return resualt
-msg = "abdeAssamed23__"
-crpt_msg = ceazer_shifer(msg,1)
-print(crpt_msg)
+
 
 
 def decrypt_ceaser (msg) : 
@@ -23,9 +21,13 @@ def decrypt_ceaser (msg) :
             decrepted_msg += chr((ord(char) - key - 97)%26 + 97)
          else:
             decrepted_msg +=char
+      print("-"*20)
       print(f"the key {key} ==> {decrepted_msg}")
+      print("-"*20)
 
-print(f"brid force decrypted message ")
-decrypt_ceaser("Cdfguucogf")
+message = "EZSHFTD JHRR SNHKDS OKZMDS"
+
+print(f"-------------brote force attak------ ")
+decrypt_ceaser(message)
 
 

@@ -11,7 +11,7 @@ primes = []
 number = 2 
 
 
-while len(primes) < 110:
+while len(primes) < 1100:
     if is_prime(number):  
         primes.append(number)  
     number += 1 
